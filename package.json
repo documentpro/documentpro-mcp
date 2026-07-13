@@ -1,0 +1,15 @@
+{
+  "name": "documentpro-mcp-glama-bridge",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Stdio bridge to the remote DocumentPro MCP server, used only so Glama's build/scoring pipeline has something to run.",
+  "main": "glama-bridge.mjs",
+  "scripts": {
+    "start": "node glama-bridge.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "mcp-proxy": "^3.3.0"
+  }
+}
